@@ -2,15 +2,18 @@ import rp.*;
 
 public class Interface {
     public static void main(String[] args) {
-        Cottage c = new Cottage();
-        c.build("bois");
+        Cottage c1 = new Cottage();
+        c1.build("bois");
 
-        Ship s = new Ship();
-        Glider g = new Glider();
-        s.moveXY(15, 57);
-        g.moveXY(45,95);
+        Ship s1 = new Ship();
+        Glider g1 = new Glider();
+        s1.moveXY(15, 57);
+        g1.moveXY(45,95);
 
-        c.fly("rien");
-        g.fly("vent");
+        c1.fly("rien");
+        g1.fly("vent");
+
+        Cottage c2 = new Cottage();
+        Glider g2 = new Glider();
     }
 }

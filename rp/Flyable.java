@@ -7,6 +7,7 @@ package rp;
 //L'interface est publique mais on ne l'écrit pas
 
 @FunctionalInterface //Il s'agit d'une interface fonctionelle car il n'y a qu'une méthode 
+public
 interface Flyable { //Ne pas oublier de signaler que c'est une interface ! Une interface peut être étendue mais aussi implémentée dans une classe avec le mot clé 'implement'
     public final int flySpeed = 20; //C'est une constante
     public void fly(String energy);
